@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css2?family=Mitr:wght@200;300;400;500;600;700&display=swap");
+:root {
+  --right: $colorRight;
+  --place: $colorPlace;
+  --wrong: $colorWrong;
+  --wrongFG: $colorWrongFG;
+}
+
+html {
+  background-color: #6e5c62;
+}
+
+body {
+  font-family: "Mitr", sans-serif;
+}
+
+.logo::before {
+  content: "TERMO";
+  font-family: "Mitr", sans-serif;
+  font-weight: 600;
+  font-size: 4vh;
+  line-height: 6vh;
+  height: 6vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+.letter {
+  font-family: "Mitr", sans-serif;
+  text-transform: uppercase;
+}
+
+.rigth {
+  background-color: var(--right);
+}
+
+.place {
+  background-color: var(--place);
+}
+
+.wrong {
+  background-color: var(--wrong);
+}
+
+.active-square {
+  background-color: transparent;
+}
+
+.disactive-square {
+  background-color: var(--wrongFG);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}/*# sourceMappingURL=global.css.map */
